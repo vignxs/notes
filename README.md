@@ -10,6 +10,11 @@ from langchain_core.runnables.config import (
     patch_config,
 )
 
+
+necessary_tool_names = ['sql_db_query', 'sql_db_schema']
+    agent_executor.tools = [tool for tool in agent_executor.tools if tool.name in necessary_tool_names]
+
+    
 class CustomRunnableParallel(RunnableParallel):
     def invoke(self, inputs: Dict[str, Any], config: Optional[RunnableConfig] = None) -> Dict[str, Any]:
         from langchain_core.callbacks.manager import CallbackManager
