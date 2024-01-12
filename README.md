@@ -67,3 +67,13 @@ result = custom_map_chain.invoke({
 })
 
 result
+
+Accomplishments in 2023:
+I led the successful implementation of natural language SQL interactions using Langchain and OpenAI, significantly enhancing data accessibility for non-technical users. My successful demo to the CEO and stakeholders underscored the benefits in decision-making and operational efficiency.
+I overhauled our ETL pipeline to generate comprehensive historical reports from 2015 to present, facilitating deeper composition analysis. My initiative not only improved reporting accuracy but also increased team productivity through Knowledge Transfer (KT) sessions.
+Took charge of the Ripa Chatbot project, ensuring alignment with sprint requirements and expectations. Regularly showcased progress to stakeholders, maintaining transparency and meeting project milestones.
+Improved reports in the UI by introducing exception handling and error comments within the ETL pipeline. Elevated the overall robustness of the system, providing clearer insights into data processing challenges.
+
+
+
+
